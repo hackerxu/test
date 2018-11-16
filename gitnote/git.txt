@@ -1,0 +1,37 @@
+
+
+#####
+
+git config --global user.name "hackerxu" happy29xu
+git config --global user.email"sutdent_xiaoxuzi@163.com"
+ssh-keygen -C 'sutdent_xiaoxuzi@163.com' -t rsa
+
+student8xu 密码 hackerxu
+
+连接 git
+
+ssh -T git@github.com
+
+#更新文件
+
+	1 git fetch orgin master:tmp //从远程的origin 的 master 住分支下载最新版的版本到 origin/master 分支上
+	2 git diff tmp // 比较本地master分支和origin/master分支的差别
+	3 git merge //合并
+
+	1 gir pull origin master //直接更新
+
+
+# 上传文件
+
+	1 git init
+	2 git add update.test
+	3 git commit -m "i come" // 此时若出现 please tell me who are you 写注释之前 先 git config user.name "hakcerxu" git config email " sutdent_xiaoxuzi@163.com"
+	4 git remote rm origin
+	5 git remote add origin https://github.com/hackerxu/test
+	6 git push -f origin master
+
+# 本地版本回退
+
+	git reset --hard id  // id 是 git log 中版本对应的id
+
+	//若错误回退 git reflog 查看id 版本 重新回退即可
