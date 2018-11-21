@@ -1,0 +1,29 @@
+#安flashp
+
+sudo apt-get install flashplugin-installer
+
+#启动网易云
+
+sudo netease-cloud-music
+
+/usr/share/applications# vi netease-cloud-music.desktop
+
+#打开sublime
+
+subl
+
+#2018年11月12日
+
+mv a.txt b.txt //改名
+mv /home/xinxu/first/test /home/xinxu/xx  //把文件or文件夹 test目录移到xx目录下
+
+cp //类似mv 同目录下cp 不会改名 重新一份
+
+chmod a+arw t.txt  //给t.txt 加权限 a 所有人 g 用户组 u 所有人 o 组外人
+
+# 改变开机声音
+
+/home/xinxu/下载/system-ready.ogg  /usr/share/sounds/ubuntu/stereo/system-ready.ogg
+
+
+

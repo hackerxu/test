@@ -6,11 +6,16 @@ git config --global user.name "hackerxu" happy29xu
 git config --global user.email"sutdent_xiaoxuzi@163.com"
 ssh-keygen -C 'sutdent_xiaoxuzi@163.com' -t rsa
 
-student8xu 密码 qiaobaxu hackerxu
+student8xu 密码 hackerxu qiabaxu
 
 连接 git
 
 ssh -T git@github.com
+
+#秘钥更新
+
+ ssh-keygen -t rsa -C "student_xiaoxuzi@163.com"
+vi ~/.ssh/id_rsa.pub
 
 #更新文件
 
